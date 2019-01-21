@@ -1,0 +1,151 @@
+
+/* Стили для settings_account.php */
+
+section.content{
+	width:75%;
+	box-sizing: border-box;
+}
+section.content h2{
+	margin-left:7%;
+	margin-top:25px;
+}
+section.content section.articles{
+	width:100%;
+	box-sizing: border-box;
+	margin-top:25px;
+	margin-bottom:25px;
+	display:-webkit-flex;
+	display:flex;
+	flex-wrap:wrap; 
+	padding-left:7%;
+	padding-right:2%;
+}
+section.content section.add_comment div.comments_prohibited{
+	border-left: 10px solid #81DAF5;
+	background-color:#D5E4D8;
+	box-sizing:border-box;
+	padding: 15px;
+	margin-bottom:20px;
+}
+section.content section.add_comment div.comments_prohibited p{
+	font-size:16px;
+	font-family: Verdana;
+	line-height: 1.3;
+}
+section.content section.articles form{
+	width:100%;
+}
+section.content section.articles ul{
+	width:90%;
+}
+section.content section.articles ul li{
+	list-style-type: none;
+	margin-bottom:30px;
+	font-size:16px;
+	color:#3b4247;
+	width:100%;
+	border-radius: 10px;
+}
+section.content section.articles details summary::-webkit-details-marker{
+	display:none;
+}
+section.content section.articles details{
+	width:100%;
+	background-color: #e8e8e8;
+	border:1px solid #a4b0b0;
+}
+section.content section.articles details summary{
+	width:100%;
+	height:80px;
+	border-bottom:1px solid #a4b0b0;
+}
+section.content section.articles details summary label{
+	display:block;
+	box-sizing: border-box;
+	float:left;
+	cursor:pointer;
+	width:100%;
+	height:100%;
+	padding-top: 30px;
+	padding-left: 40px;
+	background-color: #e8e8e8;
+	font-weight: 600;
+	font-size:18px;
+	border-radius: 10px;
+}
+section.content section.articles details summary label:hover{
+	color:#01A9DB;
+	transition: 0.7s;
+}
+input#open_email, input#open_login, input#open_password{
+	display:none;
+}
+div.open{
+	display:block;
+	float:right;
+	color:#3b4247;
+	font-size:30px;
+	background-color: #e8e8e8;
+	cursor:pointer;
+	width:10%;
+	margin-left:-10%;
+	height:100%;
+}
+div.open span{
+	display:block;
+	width:100%;
+	height:100%;
+	text-align:center;
+	margin-top:24px;
+}
+input#open_email:checked ~ div.open span, input#open_login:checked ~ div.open span, input#open_password:checked ~ div.open span{
+	width:auto;
+	height:auto;
+	margin-top: 24px;
+	transform: rotate(90deg);
+}
+section.content section.articles details p{
+	display: block;
+	color:#383235;
+	font-size:16px;
+	font-weight:600;
+	height:32px;
+	margin:20px 30% 0 40px;
+}
+section.content section.articles details p.first_p{
+	margin-top:30px;
+}
+section.content section.articles details input{
+	width:80%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-left:40px;
+	height:36px;
+	font-size:15px;
+	font-family: Verdana;
+	border: 1px solid silver;
+}
+section.content section.articles details input:focus{
+	border:1px solid #01A9DB;
+}
+section.content section.articles details input.last_input{
+	margin-bottom:40px;
+}
+section.content section.articles form button{
+	width:40%;
+	height:40px;
+	border:none;
+	cursor:pointer;
+	border:1px solid #01A9DB;
+	background-color: #fff;
+	color:#01A9DB;
+	font-weight: 600;
+	border-radius: 14px;
+	padding:9px;
+	font-size:16px;
+}
+section.content section.articles form button:hover{
+	color:#086A87;
+	border:1px solid #086A87;
+	transition: 0.2s;
+}

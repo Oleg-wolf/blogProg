@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color:#537b99;
+}
+body{
+	background-color:#e9edf5;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-family: Trebuchet MS;
+}
+section{
+	border:1px solid silver;
+	width:45%;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin:0 auto;
+	box-shadow: 0 0 10px silver;
+	border-radius: 5px;
+}
+section h2{
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 5%;
+	box-sizing: border-box;
+	border-bottom: 1px solid silver;
+	color:#383235;
+	margin-bottom:15px;
+}
+section form{
+	border-bottom: 1px solid silver;
+}
+section p{
+	display: block;
+	width:90%;
+	margin-left: 5%;
+	margin-bottom:10px;
+	color:#383235;
+	font-size:15px;
+	font-weight: 600;
+}
+section p span{
+	color:#ff3333;
+	font-size: 13px;
+}
+section input{
+	width:90%;
+	margin-left:5%;
+	box-sizing: border-box;
+	padding: 7px;
+	font-size:16px;
+	margin-bottom:15px;
+	outline: none;
+	border: 1px solid silver;
+}
+section input[type="checkbox"]{
+	width:5%;
+	cursor: pointer;
+	margin-left:0;
+	margin-right:2px;
+}
+section p label{
+	cursor:pointer;
+}
+section p.terms_of_use{
+	display: block;
+	font-size: 15px;
+	font-weight: 400;
+	margin-top:10px;
+	margin-bottom:15px;
+}
+section p.terms_of_use a:hover{
+	text-decoration: underline;
+}
+section input.characters{
+	max-width: 210px;
+	height:40px;
+	background-color: #dcd0ff;
+	padding: 15px;
+	font-size:20px;
+	float:left;
+	letter-spacing: 15px;
+}
+section form button.signup{
+	width:66%;
+	margin-left:17%;
+	font-size:17px;
+	color:#fff;
+	border: none;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #6699cc;
+	cursor:pointer;
+	margin-top:5px;
+	margin-bottom: 20px;
+}
+section form button.characters{
+	display:block;
+	float:left;
+	width:40%;
+	height:40px;
+	margin-left:3%;
+	font-size:17px;
+	color:#fff;
+	border: none;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #6699cc;
+	cursor:pointer;
+}
+p.characters{
+	float:left;
+}
+section form button:hover{
+	transition: 0.3s;
+	background-color: #366b91;
+}
+section p.authorization{
+	text-align: center;
+	padding-top:25px;
+	font-size: 17px;
+	padding-bottom: 20px;
+}

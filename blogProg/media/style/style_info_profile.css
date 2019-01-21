@@ -1,0 +1,42 @@
+
+/* Style For Content */
+
+section.content{
+	width:75%;
+	box-sizing: border-box;
+}
+section.content h2{
+	margin-left:7%;
+	margin-top:25px;
+}
+section.content section.articles{
+	width:100%;
+	box-sizing: border-box;
+	margin-top:25px;
+	margin-bottom:25px;
+	display:-webkit-flex;
+	display:flex;
+	flex-wrap:wrap; 
+	padding-left:7%;
+	padding-right:2%;
+}
+div.info_profile{
+	width:95%;
+	padding:20px;
+	background-color: #E0ECF8;
+}
+div.info_profile h3{
+	margin-bottom: 20px;
+}
+td.input{
+	font-weight:600;
+	font-size:18px;
+	padding-bottom:20px;
+}
+td.value{
+	padding-left:40px;
+	padding-bottom: 15px;
+}
+h2 img, td img{
+	max-width:50px;
+}

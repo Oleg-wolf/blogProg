@@ -1,0 +1,23 @@
+
+/* Style For Content */
+
+article.article_about{
+	width:55%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:45px;
+	box-sizing: border-box;
+}
+article.article_about div{
+	width:100%;
+	border:1px solid silver;
+	padding:25px;
+	height: auto;
+}
+article.article_about h2{
+	margin-bottom:15px;
+}
+article.article_about div p{
+	font-size:18px;
+	line-height: 1.5;
+}

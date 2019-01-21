@@ -1,0 +1,80 @@
+
+/* Style For Content */
+	
+div.content{
+	width:75%;
+	box-sizing: border-box;
+	padding-top:30px;
+}
+div.content div.form{
+	width:60%;
+	margin-left:20%;
+	border:1px solid silver;
+	border-radius: 10px;
+	padding:20px;
+}
+div.content div.form h2{
+	font-size:19px;
+	line-height:1.4;
+	margin-bottom:10px;
+}
+div.content div.form span.error{
+	display: block;
+	color:#FE2E2E;
+	padding-bottom: 10px;
+	font-size:17px;
+}
+div.content div.form span.success{
+	display:block;
+	color:#3ADF00;
+	padding-bottom: 10px;
+	font-size:17px;
+}
+div.content div.form p input{
+	width:90%;
+	height:25px;
+	border-radius:18px;
+	border:1px solid silver;
+	margin-bottom:15px;
+	padding:7px;
+	padding-left:15px;
+	font-size:16px;
+}
+div.content div.form p input:focus{
+	border:1px solid #01A9DB;
+	transition: 0.5s;
+}
+div.content div.form p textarea{
+	min-width: 100%;
+	max-width: 100%;
+	height:220px;
+	box-sizing: border-box;
+	border-radius:18px;
+	border:1px solid silver;
+	margin-bottom:15px;
+	padding:20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size:16px;
+	line-height: 1.4;
+}
+div.content div.form p textarea:focus{
+	border:1px solid #01A9DB;
+	transition: 0.5s;
+}
+div.content div.form p button{
+	border:none;
+	cursor:pointer;
+	border:1px solid #01A9DB;
+	background-color: #fff;
+	color:#01A9DB;
+	font-weight: 600;
+	border-radius: 14px;
+	padding:10px;
+	font-size:14px;
+}
+div.content div.form p button:hover{
+	color:#086A87;
+	border:1px solid #086A87;
+	transition: 0.2s;
+}

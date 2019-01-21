@@ -1,0 +1,287 @@
+
+section.content{
+	width:75%;
+	box-sizing: border-box;
+}
+section.content h2{
+	margin-left:7%;
+	margin-top:25px;
+}
+section.content section.add_comment div.comments_prohibited{
+	border-left: 10px solid #81DAF5;
+	background-color:#D5E4D8;
+	box-sizing:border-box;
+	padding: 15px;
+	margin-bottom:20px;
+}
+section.content section.add_comment div.comments_prohibited p{
+	font-size:16px;
+	font-family: Verdana;
+	line-height: 1.3;
+}
+section.content article.new_article{
+	width:100%;
+	box-sizing: border-box;
+	margin-top:25px;
+	margin-bottom:25px;
+	display:-webkit-flex;
+	display:flex;
+	flex-wrap:wrap; 
+	padding-left:7%;
+	padding-right:2%;
+}
+section.content article.new_article form{
+	width:93%;
+}
+section.content article.new_article p{
+	font-size:15px;
+	font-weight: 600;
+	color:#212629;
+	font-family: Verdana;
+}
+section.content article.new_article input{
+	width:100%;
+	box-sizing: border-box;
+	padding: 7px;
+	font-size:16px;
+	color:#212629;
+	font-family: Verdana;
+	margin-top:5px;
+	margin-bottom:15px;
+	border:1px solid silver;
+}
+section.content article.new_article form select{
+	width:50%;
+	box-sizing: border-box;
+	padding: 7px;
+	font-size:16px;
+	color:#212629;
+	font-family: Verdana;
+	margin-top:5px;
+	margin-bottom:15px;
+	border:1px solid silver;
+	cursor:pointer;
+}
+section.content article.new_article form select option[disabled="disabled"]{
+	display: none;
+}
+section.content article.new_article form select option{
+	color:#212629;
+}
+section.content article.new_article form select:focus, section.content article.new_article form select:hover{
+	transition: 0.5s;
+	border:1px solid #01A9DB;
+}
+section.content article.new_article div.inputs{
+	display: flex;
+	width:100%;
+	box-sizing: border-box;
+}
+section.content article.new_article div.inputs label{
+	display: flex;
+	margin-top: 15px;
+	height: 0;
+	cursor: pointer;
+}
+section.content article.new_article div.inputs label input[name="no_change_img"]{
+	width:auto;
+	transform:scale(1.3);
+  	opacity:1;
+	cursor: pointer;
+	margin-right: 5px;
+}
+section.content article.new_article div.inputs label span{
+	font-size: 18px;
+	color:#1C1C1C;
+	margin-top: 2px;
+}
+input#check:checked ~ span.no_change_img{
+	color:#045FB4;
+}
+section.content article.new_article div.inputs label span:hover{
+	color:#045FB4;
+	transition: 0.3s;
+}
+section.content article.new_article div.inputs span.or{
+	margin-top: 17px;
+	font-size: 16px;
+	color:black;
+}
+section.content article.new_article div.inputs input[name="img_my_public"]{
+	cursor:pointer;
+	width:60%;
+	padding:10px;
+}
+section.content article.new_article input:focus, section.content article.new_article input:hover{
+	border:1px solid #01A9DB;
+	transition: 0.5s;
+}
+section.content article.new_article textarea:focus, section.content article.new_article textarea:hover{
+	border:1px solid #01A9DB;
+	transition: 0.5s;
+}
+section.content article.new_article textarea{
+	max-width:100%;
+	min-width: 100%;
+	box-sizing: border-box;
+	padding: 7px;
+	font-size:16px;
+	color:#212629;
+	font-family: Verdana;
+	margin-top:5px;
+	margin-bottom:15px;
+}
+section.content article.new_article form button{
+	width:40%;
+	height:40px;
+	border:none;
+	cursor:pointer;
+	border:1px solid #01A9DB;
+	background-color: #fff;
+	color:#01A9DB;
+	font-weight: 600;
+	border-radius: 14px;
+	padding:9px;
+	font-size:16px;
+	margin-right:20px;
+}
+section.content article.new_article form button:hover{
+	color:#086A87;
+	border:1px solid #086A87;
+	transition: 0.2s;
+}
+section.content article.new_article p span{
+	color:#ff3333;
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+section.content section.articles{
+	width:100%;
+	box-sizing: border-box;
+	margin-top:25px;
+	margin-bottom:25px;
+	display:-webkit-flex;
+	display:flex;
+	flex-wrap:wrap; 
+	padding-left:7%;
+	padding-right:2%;
+}
+section.content section.articles article{
+	width:44%;
+	box-sizing: border-box;
+	margin-right:5%;
+	margin-bottom:30px;
+}
+section.content section.articles article div.status_public{
+	width:100%;
+	height:35px;
+	padding: 7px 10px 7px 10px;
+	box-sizing: border-box;
+	background-color:#58FA82;
+	margin-bottom: 10px;
+}
+section.content section.articles article div.status_public span.public{
+	color:#1C1C1C;
+}
+section.content section.articles article div.status_waiting_moderation{
+	width:100%;
+	height:35px;
+	padding: 7px 10px 7px 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	background-color:#F3F781;
+}
+section.content section.articles article div.status_waiting_moderation span.waiting_moderation{
+	color:#1C1C1C;
+}
+section.content section.articles article div.status_edited{
+	width:100%;
+	height:35px;
+	padding: 7px 10px 7px 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	background-color:#2E9AFE;
+}
+section.content section.articles article div.status_edited span.edited{
+	color:#fff;
+}
+section.content section.articles article div.status_no_public{
+	width:100%;
+	height:35px;
+	padding: 7px 10px 7px 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	background-color:#ff3333;
+}
+section.content section.articles article div.status_no_public span.no_public{
+	color:#fff;
+}
+section.content section.articles article div a img{
+	width:100%;
+	height:100%;
+}
+section.content section.articles article h3{
+	margin-top:5px;
+	margin-bottom:10px;
+}
+section.content section.articles article h3 a{
+	color:#2E2E2E;
+}
+section.content section.articles article h3 a:hover{
+	transition: 0.5s;
+	color:#01A9DB;
+}
+section.content section.articles article div.info_art div{
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 3px;
+}
+section.content section.articles article div.info_art div a.category{
+	margin-right: 10px;
+}
+section.content section.articles article div.info_art div a.category, span{
+	color:#696969;
+	font-size:16px;
+	margin-right: 10px;
+}
+section.content section.articles article div.info_art div a.category:hover{
+	color:#FE9A2E;
+}
+section.content section.articles article div.info_art div span.edit a{
+	font-size:16px;
+	color:#01A9DB;
+}
+section.content section.articles article div.info_art div span.edit a:hover{
+	color:#045FB4;
+	transition:0.3s;
+}
+section.content section.articles article div.info_art div span.delete button.delete{
+	cursor:pointer;
+	background-color: #fff;
+	border: none;
+	outline:none;
+	font-size:16px;
+	color:#ff3333;
+}
+section.content section.articles article div.info_art div span.delete button.delete:hover{
+	transition: 0.3s;
+	color:#B40404;
+}
+section.content div.pagination{
+	display: flex;
+  	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+  	margin-bottom: 40px;
+}
+section.content div.pagination a.pagination{
+	display:block;
+	margin-right:10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+section.content div.pagination a.selected{
+	color:red;
+	font-size: 20px;
+}

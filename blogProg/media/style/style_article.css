@@ -1,0 +1,262 @@
+
+/* Style For Content */
+
+div.content{
+	width:75%;
+	padding:30px 45px 30px 45px;
+	box-sizing: border-box;
+}
+div.content article.article{
+	width:100%;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+div.content article.article h2.header{
+	margin-bottom:30px;
+	color:#2E2E2E;
+	font-size:30px;
+}
+div.content article.article div.img_art img{
+	width:100%;
+}
+div.content article.article div.text_art{
+	margin-top:20px;
+}
+div.content article.article div.text_art p{
+	font-family: Verdana;
+	color:#1C1C1C;
+	line-height:1.5;
+	font-size:17px;
+}
+div.content section.similar_publications{
+	width:100%;
+	margin-bottom: 50px;
+	background-color: #F2F2F2;
+	box-sizing: border-box;
+	padding:30px;
+	display:-webkit-flex;
+	display: flex;
+	flex-wrap:wrap;
+}
+div.content section.similar_publications h2{
+	width:100%;
+	margin-bottom:10px;
+	padding-bottom: 10px;
+	font-size:23px;
+}
+div.content section.similar_publications article.similar_publication{
+	width:100%;
+	display:-webkit-flex;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	border-top:1px solid #d0d0d0;
+}
+div.content section.similar_publications article.similar_publication div.img_similar_art{
+	width:30%;
+}
+div.content section.similar_publications article.similar_publication div.img_similar_art img{
+	width:100%;
+}
+div.content section.similar_publications article.similar_publication div.info_similar_art{
+	width:70%;
+	padding-left:30px;
+	padding-right: 30px;
+}
+div.content section.similar_publications article.similar_publication div.info_similar_art h3{
+	margin-bottom:10px;
+	margin-top:10px;
+	line-height:1.2;
+}
+div.content section.similar_publications article.similar_publication div.info_similar_art a.category, span{
+	color:#696969;
+	font-size:15px;
+}
+div.content section.similar_publications article.similar_publication div.info_similar_art a.category:hover{
+	color:#FE9A2E;
+}
+div.content section.comments{
+	width:100%;
+	background-color: #F2F2F2;
+	box-sizing: border-box;
+	padding:30px;
+	display:-webkit-flex;
+	display: flex;
+	flex-wrap:wrap;
+}
+div.content section.comments h2{
+	width:100%;
+	margin-bottom:20px;
+	padding-bottom: 20px;
+	font-size:23px;
+	border-bottom:1px solid #d0d0d0;
+}
+div.content section.comments h2 span.error{
+	margin-left:20px;
+	font-size:16px;
+	color:#ff5349;
+}
+div.content section.comments h2 span.success{
+	font-size:16px;
+	color:#01DF3A;
+}
+div.content section.comments section.add_comment{
+	width:100%;
+	display: -webkit-flex;
+	display: flex;
+	margin-bottom:30px;
+}
+div.content section.comments section.add_comment div.comments_prohibited{
+	border-left: 8px solid #81DAF5;
+	background-color:#D5E4D8;
+	box-sizing:border-box;
+	padding: 10px;
+	margin-bottom:20px;
+}
+div.content section.comments section.add_comment div.comments_prohibited p{
+	font-size:15px;
+	font-family: Verdana;
+	line-height: 1.3;
+}
+div.content section.comments section.add_comment div.comments_prohibited a{
+	font-size:16px;
+	color:#01A9DB;
+	font-family:Verdana;
+}
+div.content section.comments section.add_comment div.comments_prohibited a:hover{
+	color:#045FB4;
+	transition:0.3s;
+}
+div.content section.comments section.add_comment div.avatar_commentator{
+	width:5%;
+	margin-right:2%;
+}
+div.content section.comments section.add_comment div.avatar_commentator img{
+	width:100%;
+}
+div.content section.comments section.add_comment form{
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	width:91%;
+}
+div.content section.comments section.add_comment textarea{
+	width:100%;
+	padding: 10px;
+	font-size:15px;
+	font-family: Verdana;
+	margin-bottom: 20px;
+}
+div.content section.comments section.add_comment textarea:focus{
+	border:1px solid #01A9DB;
+	transition: 0.5s;
+}
+div.content section.comments section.add_comment button{
+	width:45%;
+	height:30px;
+	padding: 5px;
+	font-size: 16px;
+	cursor:pointer;
+	background-color: #77dde7;
+	border:none;
+}
+div.content section.comments section.add_comment button[name="edit_comment"]{
+	margin-right:10%;
+}
+div.content section.comments section.add_comment button:hover{
+	background-color: #33ccff;
+	color:#fff;
+	transition: 0.2s;
+}
+div.content section.comments article.comment{
+	width:100%;
+	box-sizing: border-box;
+	display: -webkit-flex;
+	display:flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+div.content section.comments article.comment section.about_comment{
+	width:100%;
+	box-sizing: border-box;
+	display:-webkit-flex;
+	display:flex;
+	margin-bottom:10px;
+	background-color: #d7e8d3;
+	padding-left: 10px;
+}
+div.content section.comments article.comment section.about_comment div.info_comment{
+	display:-webkit-flex;
+	display:flex;
+	width:50%;
+}
+div.content section.comments article.comment section.about_comment div.avatar_commentator{
+	width:6%;
+	margin-top:3px;
+	margin-right:3%;
+}
+div.content section.comments article.comment section.about_comment div.avatar_commentator img{
+	width:100%;
+}
+div.content section.comments article.comment section.about_comment span{
+	margin-top:7px;
+	font-size:15px;
+}
+div.content section.comments article.comment section.about_comment div.settings_comment{
+	display:-webkit-flex;
+	display:flex;
+	width:50%;
+	padding-right:5%;
+	padding-left: 20%;
+}
+div.content section.comments article.comment section.about_comment div.settings_comment span{
+	margin-right:10%;
+}
+div.content section.comments article.comment section.about_comment div.settings_comment span a.edit{
+	color:#01A9DB;
+	transition:0.2s;
+	font-size:16px;
+}
+div.content section.comments article.comment section.about_comment div.settings_comment span a.edit:hover{
+	color:#045FB4;
+	transition:0.3s;
+}
+
+div.content section.comments article.comment section.about_comment div.settings_comment button.delete{
+	border:none;
+	outline:none;
+	font-size:16px;
+	background-color: #d7e8d3;
+	color:#ff3333;
+	cursor:pointer;
+}
+div.content section.comments article.comment section.about_comment div.settings_comment button.delete:hover{
+	transition: 0.3s;
+	color:#B40404;
+}
+div.content section.comments article.comment article.text_comment{
+	width:100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+div.content section.comments article.comment article.text_comment p{
+	font-family: Verdana;
+	color:#1C1C1C;
+	line-height:1.4;
+	font-size:15px;
+}
+div.content section.comments a.more{
+	display: block;
+	margin:0 auto;
+	background-color:#2E9AFE;
+	padding: 10px;
+	color:#fff;
+	border-radius: 5px;
+}
+div.content section.comments a.more:hover{
+	background-color: #0174DF;
+	padding: 12px;
+	font-size:17px;
+	margin-bottom:-4px;
+}

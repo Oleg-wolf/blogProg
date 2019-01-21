@@ -1,0 +1,66 @@
+
+/* Style For Content */
+	
+section.content{
+	width:75%;
+	box-sizing: border-box;
+}
+section.content h2{
+	margin-left:7%;
+	margin-top:25px;
+}
+section.content section.articles{
+	width:100%;
+	box-sizing: border-box;
+	margin-top:25px;
+	margin-bottom:25px;
+	display:-webkit-flex;
+	display:flex;
+	flex-wrap:wrap; 
+	padding-left:7%;
+	padding-right:2%;
+}
+section.content section.articles article{
+	width:44%;
+	box-sizing: border-box;
+	margin-right:5%;
+	margin-bottom:30px;
+}
+section.content section.articles article div a img{
+	width:100%;
+	height:100%;
+}
+section.content section.articles article h3{
+	margin-top:5px;
+	margin-bottom:10px;
+}
+section.content section.articles article h3 a{
+	color:#2E2E2E;
+}
+section.content section.articles article h3 a:hover{
+	transition: 0.5s;
+	color:#01A9DB;
+}
+section.content section.articles article a.category, span{
+	color:#696969;
+	font-size:14px;
+}
+section.content section.articles article a.category:hover{
+	color:#FE9A2E;
+}
+section.content div.pagination{
+	display: flex;
+  	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;	
+}
+section.content div.pagination a.pagination{
+	display:block;
+	margin-right:10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+section.content div.pagination a.selected{
+	color:red;
+	font-size: 20px;
+}
